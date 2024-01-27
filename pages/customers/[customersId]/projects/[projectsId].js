@@ -5,8 +5,8 @@ export default function () {
     const {customersId , projectsId} = router.query
     return (
       <div>
-        <h1>Customers {customersId} projects List Page</h1>
-        <h2>Project {projectsId} </h2>  
+        <h1>Customers {customersId} project detail Page</h1>
+        <h2>Project ({projectsId}) </h2>  
       </div>
     )
   }

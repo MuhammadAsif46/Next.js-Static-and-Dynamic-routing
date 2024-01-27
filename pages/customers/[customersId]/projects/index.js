@@ -10,8 +10,9 @@ export default function () {
         <h2>Project</h2>
         <ul>
             <li> 
-              <Link href={`/customers/${customersId}/projects/ABC`}>ABC</Link> 
+              <Link href={`/customers/${customersId}/projects/ABC`}>ABC</Link>
             </li>
+            <br />
             <li> 
               <Link href={`/customers/${customersId}/projects/XYZ`}>XYZ</Link>
             </li>
